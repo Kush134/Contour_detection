@@ -1,0 +1,8 @@
+numpy>=1.24.0
+opencv-contrib-python>=4.8.0
+pyrealsense2>=2.54.0
+PyYAML>=6.0
+reportlab>=4.0.0
+matplotlib>=3.8.0
+fastapi>=0.111.0
+uvicorn[standard]>=0.30.0

@@ -1,0 +1,32 @@
+realsense:
+  width: 1280
+  height: 720
+  fps: 30
+  align_depth_to_color: true
+
+aruco:
+  dictionary: DICT_4X4_50
+  marker_ids: [0, 1, 2, 3]
+  marker_size_mm: 50.0
+  marker_spacing_mm: 200.0
+  workspace_id_order: [0, 1, 2, 3]
+  workspace_px_per_mm: 3.0
+  plane_depth_sample_radius_px: 6
+
+contour:
+  blur_kernel: 5
+  canny_low: 60
+  canny_high: 150
+  min_area_px: 2000
+  exclude_border_px: 8
+  max_area_ratio: 0.85
+
+database:
+  path: data/db/reference_dimensions.db
+
+report:
+  output_dir: data/reports
+
+runtime:
+  save_debug_images: true
+  debug_dir: data/reports
