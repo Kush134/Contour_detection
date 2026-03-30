@@ -8,3 +8,5 @@ data/reports/*.png
 data/db/*.db
 frontend/node_modules/
 frontend/dist/
+.vercel
+public/

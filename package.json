@@ -1,0 +1,9 @@
+{
+  "name": "bill-generator-root",
+  "private": true,
+  "version": "1.0.0",
+  "scripts": {
+    "build": "npm --prefix frontend ci && npm --prefix frontend run build && rm -rf public && mkdir -p public && cp -R frontend/dist/. public/",
+    "build:web": "npm --prefix frontend ci && npm --prefix frontend run build && rm -rf public && mkdir -p public && cp -R frontend/dist/. public/"
+  }
+}
